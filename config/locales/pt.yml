@@ -3,7 +3,9 @@
 
 pt:
   hello: "Hola no Brazil"
+  artist_alphabet: "Carteira de artistas"
   message_title: "Letras de músicas"
   message_text: "Nós estamos tentando reunir o maior acervo de letras de música. Ajude-nos."
   index_search_title: "Procura artistas por Índice"
   index_search_text: "Você pode usar para encontrar seu artista abacedario:"
+  google_search_title: "Procura por letras ou artistas"

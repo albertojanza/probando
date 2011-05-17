@@ -3,5 +3,9 @@
 
 en:
   hello: "Hello world english default"
+  artist_alphabet: "Artist alphabet"
   message_text: "We are trying to gather the largest collection of lyrics. Help us."
   message_title: "Lyrics"
+  index_search_title: "Search artists or songs" 
+  index_search_text: "You can try to find your artist in our artist alphabet"
+  google_search_title: "Search artists or songs"

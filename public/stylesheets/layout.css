@@ -27,6 +27,9 @@ ul#alphabet li {float: left; margin: 4px 1px 0px 4px; padding: 0px;}
 ul#alphabet li a {font-size: 1.2em;color:#3C4296;font-weight:bold;text-decoration:none}
 ul#alphabet li a.underline{text-decoration:underline;font-weight:normal;color:yellow; }
 
+/*google search*/
+div.gs-bidi-start-align{ min-width: 800px;} 
+
 /*div.document_text{padding: 10px 10px 30px 40px;}
 div.document_text h1{font-size: 1.6em}
 */
