@@ -34,6 +34,7 @@
       localSearch.setCenterPoint("New York, NY");
 
 
+      searchControl.setResultSetSize(8);
 
 // create a drawOptions object
 var drawOptions = new google.search.DrawOptions();
