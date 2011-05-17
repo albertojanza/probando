@@ -1,0 +1,22 @@
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @artist.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @artist.description %>
+</p>
+
+
+<ul>
+      <% @songs.each{ |song|  %>
+        <li>  
+            <%= link_to song.title, url_for(song) %>
+        </li>
+      <% } %>
+</ul>
+

@@ -1,0 +1,24 @@
+/*div.header_container{background:url('images/bg_header.png') repeat-x}*/
+div.header_line{background:#0c2d70;height:50px;  border-bottom: 2px solid grey;border-top: 1px solid #e4eaf6;border-left:1px solid black;
+border-right:1px solid #96B4B7;}
+div.header_container{background:white}
+div.header{height:150px;min-width:975px;margin: 0px auto}
+
+div.content_all   {text-align:left; position: relative }
+
+#bg-top-main{
+background:url("/images/bg-top-main.png") repeat-x scroll 0 0 transparent;
+overflow:hidden;
+
+width:980px;
+min-height:11px;;
+margin: 0px auto}
+#main {
+background:url("/images/bg-main.png") repeat-y scroll 0 0 transparent;
+overflow:hidden;
+padding:0 11px;
+width:980px;
+min-height:400px;
+margin: 0px auto}
+
+

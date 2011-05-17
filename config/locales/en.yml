@@ -2,4 +2,6 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  hello: "Hello world english default"
+  message_text: "We are trying to gather the largest collection of lyrics. Help us."
+  message_title: "Lyrics"

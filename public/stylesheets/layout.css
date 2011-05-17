@@ -1,0 +1,42 @@
+/*HEADER  white-orange: 79A325  strong orange 79A325*/
+
+div.header_line{background:#3C4296;height:40px; border-bottom: 2px solid grey;border-top: 1px solid #F8D700;border-left:1px solid black;
+border-right:1px solid #96B4B7;}
+div.header_line ul { list-style-image: none; list-style-type: none; width:975px;margin: 0px auto}
+div.header_line ul li {float: left; margin: 10px 3px 0px 10px; padding: 0px;}
+div.header_line ul li a {font-size: 1.5em;color:white;font-weight:bold;text-decoration:none}
+div.header_line ul li a.underline{text-decoration:underline;font-weight:normal;color:yellow; }
+
+div.header{background:#79A325;width:1000px;height:100px; margin: 0px auto}
+div#logo{margin: 15px 20px 5px 20px}
+
+/*SERVICE*/
+/*background:url("/images/bg-main.png") repeat-y scroll 0 0 transparent;*/
+div.container_service {text-align:left; position: relative; overflow:hidden;padding:0 11px;width:1018px;height:100%;margin: 0px auto;}
+div.service{float:left; width:982px }
+
+div.container_service_border_left{background:url('images/subheader_border_left.png'); height:900px; width:18px;float:left}
+div.container_service_border_right{background:url('images/subheader_border_right.png'); height:900px; width:18px;float:left}
+
+/* index */
+div.box{ margin: 5px;}
+div.title{width:350px; background-color:#3C4296; margin:10px 0px;} 
+div.title h2{ text-align:center; color:white; line-height:130%;font-size: 16px; font-weight: bold;}
+ul#alphabet { list-style-image: none; list-style-type: none; }
+ul#alphabet li {float: left; margin: 4px 1px 0px 4px; padding: 0px;}
+ul#alphabet li a {font-size: 1.2em;color:#3C4296;font-weight:bold;text-decoration:none}
+ul#alphabet li a.underline{text-decoration:underline;font-weight:normal;color:yellow; }
+
+/*div.document_text{padding: 10px 10px 30px 40px;}
+div.document_text h1{font-size: 1.6em}
+*/
+/*div.document_text p a{font-weight:bold; color:#0C2D70}
+div.document_text p a.underline{text-decoration:underline;font-weight:normal; color:red}*/
+/*div.document_text p a:link {font-weight:bold; color:#0C2D70;text-decoration:none;} */     /* unvisited link */
+/*div.document_text p a:visited {color:#1d64f6;text-decoration:none;} */ /* visited link */
+/*div.document_text p a:hover {color:#1d64f6;text-decoration:underline;}*/  /* mouse over link */
+/*div.document_text p a:active {color:#1d64f6;}*/  /* selected link */
+
+/*div.side_right_bar {float:right;width: 250px
+}*/
+

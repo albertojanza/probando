@@ -5,7 +5,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <title>Probando</title>
-    <%= stylesheet_link_tag :all %>
+    <%# stylesheet_link_tag :all %>
     <%= stylesheet_link_tag 'screen' %>
     <%= javascript_include_tag :defaults %>
     <%= csrf_meta_tag %>
@@ -21,27 +21,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
             </div>
         </div>
     </div>
-
-
+</div>
 <div class="header_line">
     <ul>
-      <% alphabet = %{ a b c d e f g h i j k l m n o p q r s t u v w x y z}.split %>
-      <% alphabet.each_index { |index|  %>
         <li>  
-            <%= link_to alphabet[index].capitalize, alphabet_path(:id => index + 1) %>
+            <%= link_to "Blog", root_path %>
         </li>
-      <% } %>
+    </ul>
+    <ul>
+        <li>  
+            <%= link_to "Resume", root_path%>
+        </li>
+    </ul>
+    <ul>
+        <li>  
+            <%= link_to "Projects", root_path%>
+        </li>
+    </ul>
+    <ul>
+        <li>  
+            <%= link_to "Targets", root_path%>
+        </li>
+    </ul>
+    <ul>
+        <li>  
+            <%= link_to "Contact", root_path%>
+        </li>
     </ul>
 </div>
-
-</div>
 <div class="container_service">
-    <div class="container_service_border_left"></div>
+ <div class="container_service_border_left"   ></div>
     <div class="service" > 
         <%= yield %>
     </div>
-    <div class="container_service_border_right"></div>
-</div>
+    <div class="container_service_border_right"   ></div>
+
+    </div>
 
 </body>
 </html>

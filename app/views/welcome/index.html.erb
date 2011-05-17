@@ -1,0 +1,25 @@
+<div style="float:left; width:350px; margin: 5px 15px; ">
+   <div class="box"> 
+        <div class="title">
+            <h2><%= I18n.t "message_title" %></h2>
+        </div>
+        <p><%= I18n.t "message_text" %></h2>
+    </div>
+</div>
+<div style="float:left; width:350px; margin: 5px 15px;">
+   <div class="box"> 
+        <div class="title">
+            <h2><%= I18n.t "index_search_title" %></h2>
+        </div>
+        <p><%= I18n.t "index_search_text" %></h2>
+        <ul id="alphabet">
+                <% alphabet = %{ a b c d e f g h i j k l m n o p q r s t u v w x y z}.split %>
+                <% alphabet.each_index { |index|  %>
+                <li>  
+                    <%= link_to alphabet[index].capitalize, alphabet_path(:id => index + 1) %>
+                </li>
+                <% } %>
+            </ul>
+    </div>
+</div>
+

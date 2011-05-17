@@ -1,0 +1,8 @@
+<ul>
+      <% @artists.each{ |artist|  %>
+        <li>  
+            <%= link_to artist.name, url_for(artist) %>
+        </li>
+      <% } %>
+</ul>
+

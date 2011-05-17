@@ -1,7 +1,10 @@
 class WelcomeController < ApplicationController
 
   def index
-    render :text => "tomatoes restaurant" 
+  end
+
+  def alphabet
+    @artists = Artist.where("alphabet_id = ?",params[:id])
   end
 
 

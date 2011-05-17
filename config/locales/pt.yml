@@ -1,0 +1,9 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+pt:
+  hello: "Hola no Brazil"
+  message_title: "Letras de músicas"
+  message_text: "Nós estamos tentando reunir o maior acervo de letras de música. Ajude-nos."
+  index_search_title: "Procura artistas por Índice"
+  index_search_text: "Você pode usar para encontrar seu artista abacedario:"
