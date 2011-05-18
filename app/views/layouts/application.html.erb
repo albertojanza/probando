@@ -4,7 +4,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <title>Probando</title>
+    <title><%= yield :head_title %></title>
+    <meta name="description" content="<%= yield :head_description %>">
     <%= stylesheet_link_tag :all %>
     <%= stylesheet_link_tag 'screen' %>
     <%= javascript_include_tag :defaults %>

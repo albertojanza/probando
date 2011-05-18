@@ -4,7 +4,9 @@ class WelcomeController < ApplicationController
   end
 
   def alphabet
-    @artists = Artist.where("alphabet_id = ?",params[:id])
+    @alphabet = Alphabet.where("id = ?",params[:id])
+    #@artists = Artist.where("alphabet_id = ?",params[:id])
+    @artists = @alphabet[0].artists
   end
 
 

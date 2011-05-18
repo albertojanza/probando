@@ -4,8 +4,14 @@
 pt:
   hello: "Hola no Brazil"
   artist_alphabet: "Carteira de artistas"
-  message_title: "Letras de músicas"
-  message_text: "Nós estamos tentando reunir o maior acervo de letras de música. Ajude-nos."
+  google_search_title: "Procura por letras ou artistas"
   index_search_title: "Procura artistas por Índice"
   index_search_text: "Você pode usar para encontrar seu artista abacedario:"
-  google_search_title: "Procura por letras ou artistas"
+  message_title: "Letras de músicas"
+  message_text: "Nós estamos tentando reunir o maior acervo de letras de música. Ajude-nos."
+
+# titles in the head section of each page and descriptions
+  title_page_welcome: "Letras de musicas."
+  description_page_welcome: "A maior coleção de letras de música. Nós queremos que o Brasil tem a maior coleção, nos ajude."
+  title_page_alphabet: "Artistas e grupos com a letra"
+  description_page_alphabet: "Esta é a lista de grupos e artistas. Escolha o que você quiser ver as letras das suas canções."

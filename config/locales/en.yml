@@ -4,8 +4,14 @@
 en:
   hello: "Hello world english default"
   artist_alphabet: "Artist alphabet"
-  message_text: "We are trying to gather the largest collection of lyrics. Help us."
-  message_title: "Lyrics"
+  google_search_title: "Search artists or songs"
   index_search_title: "Search artists or songs" 
   index_search_text: "You can try to find your artist in our artist alphabet"
-  google_search_title: "Search artists or songs"
+  message_text: "We are trying to gather the largest collection of lyrics. Help us."
+  message_title: "Lyrics"
+
+# titles in the head section of each page and descriptions
+  title_page_welcome: "Lyrics of songs." 
+  description_page_welcome: "The biggest collection of lyrics of music. We want that Brazil has the largest collection, help us"
+  title_page_alphabet: "Artists and bands by the letter"
+  description_page_alphabet: "This is the list of bands and artits. Pick up the one that you like."

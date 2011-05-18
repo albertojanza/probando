@@ -15,5 +15,8 @@ class CreateSongs < ActiveRecord::Migration
 
   def self.down
     drop_table :songs
+    remove_index :songs, :name => 'i_song_perma' 
+    remove_index :songs,  :name => 'i_song_title'
+    remove_index :songs,  :name => 'i_song_art_id'
   end
 end

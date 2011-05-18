@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(:version => 20110516201003) do
   end
 
   add_index "artists", ["alphabet_id"], :name => "i_art_alpha"
-  add_index "artists", ["name"], :name => "i_art_name", :unique => true
+  add_index "artists", ["name"], :name => "i_art_name"
   add_index "artists", ["permalink"], :name => "i_art_perma", :unique => true
 
   create_table "songs", :force => true do |t|
