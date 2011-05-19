@@ -13,8 +13,14 @@
 </p>
 
 <p>
+
+<br>
+<br>
+<br>
+<br>
   <b>Lyric:</b>
-  <%= @song.lyric %>
+  <%= sanitize "<div style=\"margin-left:500px;background-color:red\"> adf </div><br> <br>" %>
+  <%= sanitize @song.lyric %>
 </p>
 
 <p>
