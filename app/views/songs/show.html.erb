@@ -1,3 +1,10 @@
+<% content_for :head_title do %>
+    <% "#{@song.title} #{I18n.t "title_page_song"}" %> 
+<% end %>
+<% content_for :head_description do %>
+    <% "#{I18n.t "description_page_start_artist"}#{@song.title} - #{@song.artist.name}"%> 
+<% end %>
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -6,8 +13,8 @@
 </p>
 
 <p>
-  <b>Content:</b>
-  <%= @song.content %>
+  <b>Lyric:</b>
+  <%= @song.lyric %>
 </p>
 
 <p>
@@ -15,11 +22,7 @@
   <%= @song.artist_id %>
 </p>
 
-<p>
-  <b>Search:</b>
-  <%= @song.search %>
-</p>
 
 
-<%= link_to 'Edit', edit_song_path(@song) %> |
-<%= link_to 'Back', songs_path %>
+<%# link_to 'Edit', edit_song_path(@song) %> |
+<%# link_to 'Back', songs_path %>

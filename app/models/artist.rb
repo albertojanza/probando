@@ -6,7 +6,7 @@ class Artist < ActiveRecord::Base
   validates_presence_of :name
   validates_uniqueness_of :name
   
-  before_validation :create_permalink, :relate_alphabet
+  before_validation_on_create :create_permalink, :relate_alphabet
 
   def create_permalink
    self.permalink = name.parameterize 

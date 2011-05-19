@@ -15,3 +15,8 @@ en:
   description_page_welcome: "The biggest collection of lyrics of music. We want that Brazil has the largest collection, help us"
   title_page_alphabet: "Artists and bands by the letter"
   description_page_alphabet: "This is the list of bands and artits. Pick up the one that you like."
+  title_page_artist: "- lyrics"
+  description_page_start_artist: "Lyrics of "
+  description_page_end_artist: ". Help us make this site the largest one."
+  title_page_song: "- lyric"
+  description_page_start_artist: "Lyric "

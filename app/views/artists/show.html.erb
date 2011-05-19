@@ -1,3 +1,9 @@
+<% content_for :head_title do %>
+    <% "#{@artist.name} #{I18n.t "title_page_artist"}" %> 
+<% end %>
+<% content_for :head_description do %>
+    <% "#{I18n.t "description_page_start_artist"}#{@artist.name}#{I18n.t "description_page_end_artist"}"%> 
+<% end %>
 
 <p id="notice"><%= notice %></p>
 

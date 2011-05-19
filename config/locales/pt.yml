@@ -2,7 +2,7 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 pt:
-  hello: "Hola no Brazil"
+  hello: "Hola no Brasil"
   artist_alphabet: "Carteira de artistas"
   google_search_title: "Procura por letras ou artistas"
   index_search_title: "Procura artistas por Índice"
@@ -15,3 +15,8 @@ pt:
   description_page_welcome: "A maior coleção de letras de música. Nós queremos que o Brasil tem a maior coleção, nos ajude."
   title_page_alphabet: "Artistas e grupos com a letra"
   description_page_alphabet: "Esta é a lista de grupos e artistas. Escolha o que você quiser ver as letras das suas canções."
+  title_page_artist: "- letras"
+  description_page_start_artist: "Letras de músicas de "
+  description_page_end_artist: ". Ajude-nos a fazer o melhor site de música do Brasil."
+  title_page_song: "- letra"
+  description_page_start_artist: "Letra da música "
