@@ -2,7 +2,7 @@ class CreateSongs < ActiveRecord::Migration
   def self.up
     create_table :songs do |t|
       t.string :title
-      t.string :lyric
+      t.text :lyric
       t.integer :artist_id
       t.string :permalink
       t.timestamps
