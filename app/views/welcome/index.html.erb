@@ -21,7 +21,7 @@
             <h2><%= I18n.t "google_search_title" %></h2>
         </div>
 
-        <% form_tag '/', {:onSubmit => 'return GoogleSearch(); return false;'}, do -%>
+        <% form_tag '/', {:onSubmit => 'return GoogleSearch(); return false;'} do -%>
             <%= text_field_tag 'q','', :size => 30 %>
             <%= submit_tag 'Save' %>
         <% end -%>
