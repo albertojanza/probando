@@ -14,7 +14,7 @@ class Artist < ActiveRecord::Base
 
   def relate_alphabet
     index = 0
-    index = 4 if self.name =~ /(The |the )/
+    index = 4 if self.name =~ /^(The |the )/
     char = self.name[index]
     character = Alphabet.find_by_name char.downcase
     self.alphabet = character
