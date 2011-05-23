@@ -10,10 +10,15 @@ pt:
   message_title: "Letras de músicas"
   message_text: "Nós estamos tentando reunir o maior acervo de letras de música. Ajude-nos."
 
+# h1
+  h1_alphabet: "Artistas e grupos com a letra"
+  h1_alphabet_number: "Artistas e grupos"
+
 # titles in the head section of each page and descriptions
   title_page_welcome: "Letras de musicas."
   description_page_welcome: "A maior coleção de letras de música. Nós queremos que o Brasil tem a maior coleção, nos ajude."
   title_page_alphabet: "Artistas e grupos com a letra"
+  title_page_alphabet_number: "Artistas e grupos (0-9)"
   description_page_alphabet: "Esta é a lista de grupos e artistas. Escolha o que você quiser ver as letras das suas canções."
   title_page_artist: "- letras"
   description_page_start_artist: "Letras de músicas de "

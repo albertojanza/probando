@@ -10,10 +10,15 @@ en:
   message_text: "We are trying to gather the largest collection of lyrics. Help us."
   message_title: "Lyrics"
 
+# h1
+  h1_alphabet: "Artists and bands by the letter"
+  h1_alphabet_number: "Artistas e grupos com a letra"
+
 # titles in the head section of each page and descriptions
   title_page_welcome: "Lyrics of songs." 
   description_page_welcome: "The biggest collection of lyrics of music. We want that Brazil has the largest collection, help us"
   title_page_alphabet: "Artists and bands by the letter"
+  title_page_alphabet_number: "Artists and bands (0-9)" 
   description_page_alphabet: "This is the list of bands and artits. Pick up the one that you like."
   title_page_artist: "- lyrics"
   description_page_start_artist: "Lyrics of "

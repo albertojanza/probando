@@ -1,16 +1,19 @@
 <% content_for :head_title do %>
     <% "#{I18n.t "title_page_alphabet"} #{@alphabet[0].name.capitalize}" if @alphabet %> 
-    <% "#{I18n.t "title_page_alphabet"} (0-9)" unless @alphabet %> 
+    <% "#{I18n.t "title_page_alphabet_number"}" unless @alphabet %> 
 <% end %>
 <% content_for :head_description do %>
     <% I18n.t "description_page_alphabet" %> 
 <% end %>
 
-<ul>
-      <% @artists.each{ |artist|  %>
-        <li>  
-            <%= link_to artist.name, url_for(artist) %>
-        </li>
-      <% } %>
-</ul>
-
+<div class="lyrics">
+    <%= content_tag :h1, "#{I18n.t("h1_alphabet")} #{@alphabet[0].name.capitalize}" if @alphabet%>
+    <%= content_tag :h1, I18n.t("h1_alphabet_number") unless @alphabet%>
+    <ul>
+        <% @artists.each{ |artist|  %>
+            <li>  
+                <%= link_to artist.name, url_for(artist) %>
+            </li>
+        <% } %>
+    </ul>
+</div>
