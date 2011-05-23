@@ -8,8 +8,8 @@ div.header_line ul li a {font-size: 1.5em;color:white;font-weight:bold;text-deco
 div.header_line ul li a:hover {color:yellow;}
 div.header_line ul li a.underline{text-decoration:underline;font-weight:normal;color:yellow; }
 
-div.header{background:#79A325;width:1000px;height:100px; margin: 0px auto}
-div#logo{margin: 15px 20px 5px 20px}
+div.header{background:#79A325;width:1000px;height:100px; margin: 0px auto; padding-left:20px;padding-top:20px;}
+div#logo{}
 
 /*SERVICE*/
 /*background:url("/images/bg-main.png") repeat-y scroll 0 0 transparent;*/
