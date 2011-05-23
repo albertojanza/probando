@@ -5,30 +5,20 @@
     <% "#{I18n.t "description_page_start_artist"}#{@song.title} - #{@song.artist.name}"%> 
 <% end %>
 
-<p id="notice"><%= notice %></p>
+<% content_for :breadcrumbs do %>
+    <%= link_to "#{I18n.t "bc_alphabet"}#{@song.artist.alphabet.name.capitalize}", alphabet_path(@song.artist.alphabet) if  @song.artist.alphabet%>
+    <%= link_to  I18n.t("bc_alphabet_number"), alphabet_path(:id => nil) unless @song.artist.alphabet%>
+    <%= link_to @song.artist.name, url_for(@song.artist) %>
+    <%= link_to @song.title, url_for(@song) %>
+<% end %>
 
-<p>
-  <b>Title:</b>
-  <%= @song.title %>
-</p>
+<div class="lyrics">
+    <%= content_tag :h1, "#{@song.title} - #{@song.artist.name}" %>
 
-<p>
+    <br>
+    <b>Lyric:</b>
+    <%= sanitize @song.lyric %>
 
-<br>
-<br>
-<br>
-<br>
-  <b>Lyric:</b>
-  <%= sanitize "<div style=\"margin-left:500px;background-color:red\"> adf </div><br> <br>" %>
-  <%= sanitize @song.lyric %>
-</p>
-
-<p>
-  <b>Artist:</b>
-  <%= @song.artist_id %>
-</p>
-
-
-
+</div>
 <%# link_to 'Edit', edit_song_path(@song) %> |
 <%# link_to 'Back', songs_path %>

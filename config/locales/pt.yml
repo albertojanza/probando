@@ -10,7 +10,12 @@ pt:
   message_title: "Letras de músicas"
   message_text: "Nós estamos tentando reunir o maior acervo de letras de música. Ajude-nos."
 
+# breadcrumbs
+  bc_alphabet: "Grupos "
+  bc_alphabet_number: "Grupos (0-9)"
+
 # h1
+  h1_artist: "Músicas do grupo "
   h1_alphabet: "Artistas e grupos com a letra"
   h1_alphabet_number: "Artistas e grupos"
 
