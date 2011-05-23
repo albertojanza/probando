@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(:version => 20110516201003) do
 
   create_table "songs", :force => true do |t|
     t.string   "title"
-    t.string   "lyric"
+    t.text     "lyric"
     t.integer  "artist_id"
     t.string   "permalink"
     t.datetime "created_at"

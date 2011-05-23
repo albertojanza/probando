@@ -38,6 +38,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
             <%= link_to alphabet[index].capitalize, alphabet_path(:id => index + 1) %>
         </li>
       <% } %>
+        <li>  
+            <%= link_to "0-9", alphabet_path(:id => nil) %>
+        </li>
     </ul>
 </div>
 
