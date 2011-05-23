@@ -11,6 +11,7 @@ en:
   message_title: "Lyrics"
 
 # breadcrumbs
+  bc_home: "Home"
   bc_alphabet: "Bands"
   bc_alphabet_number: "Bands (0-9)"
 

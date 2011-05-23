@@ -5,6 +5,9 @@
 <% content_for :head_description do %>
     <% I18n.t "description_page_alphabet" %> 
 <% end %>
+<% content_for :breadcrumbs do %>
+    <%= link_to I18n.t("bc_home"), root_path%>
+<% end %>
 
 <div class="lyrics">
     <%= content_tag :h1, "#{I18n.t("h1_alphabet")} #{@alphabet[0].name.capitalize}" if @alphabet%>

@@ -11,6 +11,7 @@ pt:
   message_text: "Nós estamos tentando reunir o maior acervo de letras de música. Ajude-nos."
 
 # breadcrumbs
+  bc_home: "Home"
   bc_alphabet: "Grupos "
   bc_alphabet_number: "Grupos (0-9)"
 
