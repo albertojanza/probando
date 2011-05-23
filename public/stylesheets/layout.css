@@ -14,10 +14,13 @@ div#logo{margin: 15px 20px 5px 20px}
 /*SERVICE*/
 /*background:url("/images/bg-main.png") repeat-y scroll 0 0 transparent;*/
 div.container_service {text-align:left; position: relative; overflow:hidden;padding:0 11px;width:1018px;height:100%;margin: 0px auto;}
-div.service{float:left; width:982px; margin-left:16px; border-right: 2px solid grey;border-left: 2px solid grey;padding:2px; }
+div.service{min-height:500px;float:left; width:982px; margin-left:16px; border-right: 2px solid grey;border-left: 2px solid grey;padding:2px; }
+
 
 div.container_service_border_left{background:url('images/subheader_border_left.png'); height:900px; width:18px;float:left}
 div.container_service_border_right{background:url('images/subheader_border_right.png'); height:900px; width:18px;float:left}
+
+div.bottom{background:#79A325;width:1000px;height:10px; margin: 0px auto}
 
 /* alphabet, songs and artist show */
 .lyrics{margin-bottom: 10px;}
