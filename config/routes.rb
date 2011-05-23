@@ -1,7 +1,10 @@
 Probando::Application.routes.draw do
-  resources :artists
+  #resources :artists, :path_prefix => "asfsdfsf", :path_names => { :index => 'turuleca', :edit => 'cambiar'}
+  get 'grupos/:id' => 'artists#show', :as => "artist"
+ 
 
-  resources :songs
+  #resources :songs
+  get 'letras/:id' => 'songs#show', :as => "songs"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

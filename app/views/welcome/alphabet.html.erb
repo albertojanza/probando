@@ -12,7 +12,7 @@
     <ul>
         <% @artists.each{ |artist|  %>
             <li>  
-                <%= link_to artist.name, url_for(artist) %>
+                <%= link_to artist.name, artist_path(artist) %>
             </li>
         <% } %>
     </ul>
