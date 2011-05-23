@@ -5,6 +5,7 @@ border-right:1px solid #96B4B7;}
 div.header_line ul { list-style-image: none; list-style-type: none; width:975px;margin: 0px auto}
 div.header_line ul li {float: left; margin: 10px 3px 0px 10px; padding: 0px;}
 div.header_line ul li a {font-size: 1.5em;color:white;font-weight:bold;text-decoration:none}
+div.header_line ul li a:hover {color:yellow;}
 div.header_line ul li a.underline{text-decoration:underline;font-weight:normal;color:yellow; }
 
 div.header{background:#79A325;width:1000px;height:100px; margin: 0px auto}
@@ -13,11 +14,23 @@ div#logo{margin: 15px 20px 5px 20px}
 /*SERVICE*/
 /*background:url("/images/bg-main.png") repeat-y scroll 0 0 transparent;*/
 div.container_service {text-align:left; position: relative; overflow:hidden;padding:0 11px;width:1018px;height:100%;margin: 0px auto;}
-div.service{float:left; width:982px }
+div.service{float:left; width:982px; margin-left:16px; border-right: 2px solid grey;border-left: 2px solid grey;padding:2px; }
 
 div.container_service_border_left{background:url('images/subheader_border_left.png'); height:900px; width:18px;float:left}
 div.container_service_border_right{background:url('images/subheader_border_right.png'); height:900px; width:18px;float:left}
 
+/* alphabet, songs and artist show */
+.lyrics{margin-bottom: 10px;}
+div.big_title{width:650px; background-color:#3C4296; margin:10px 0px;} 
+div.big_title h1{ text-align:center; color:white; line-height:130%;font-size: 19px; font-weight: bold;}
+ul.song_artist_list { margin-left:50px;}
+#lyric{width:600px;   margin-left:100px;}
+div.breadcrumbs {color:#79A325;font-size: 1.0em;}
+div.breadcrumbs a {color:#79A325;font-weight:bold;text-decoration:none}
+div.breadcrumbs a:hover {color:yellow;}
+
+/*div.header_line ul li a.underline{text-decoration:underline;font-weight:normal;color:yellow; }
+*/
 /* index */
 div.box{ margin: 5px;}
 div.title{width:350px; background-color:#3C4296; margin:10px 0px;} 

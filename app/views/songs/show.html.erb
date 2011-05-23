@@ -6,20 +6,20 @@
 <% end %>
 
 <% content_for :breadcrumbs do %>
-    <%= link_to I18n.t("bc_home"), root_path%>
+    <%= link_to I18n.t("bc_home"), root_path%> >
     <%= link_to "#{I18n.t "bc_alphabet"}#{@song.artist.alphabet.name.capitalize}", alphabet_path(@song.artist.alphabet) if  @song.artist.alphabet%>
     <%= link_to  I18n.t("bc_alphabet_number"), alphabet_path(:id => nil) unless @song.artist.alphabet%>
-    <%= link_to @song.artist.name, artist_path(@song.artist) %>
-    <%= link_to @song.title, songs_path(@song) %>
+    > <%= link_to @song.artist.name, artist_path(@song.artist) %>
+    > <%= link_to @song.title, songs_path(@song) %>
 <% end %>
 
 <div class="lyrics">
-    <%= content_tag :h1, "#{@song.title} - #{@song.artist.name}" %>
-
-    <br>
-    <b>Lyric:</b>
-    <%= sanitize @song.lyric %>
-
+    <div class="big_title">
+        <%= content_tag :h1, "#{@song.title} - #{@song.artist.name}" %>
+    </div>
+    <div id="lyric">
+        <%= sanitize @song.lyric %>
+    </div>
 </div>
 <%# link_to 'Edit', edit_song_path(@song) %> |
 <%# link_to 'Back', songs_path %>

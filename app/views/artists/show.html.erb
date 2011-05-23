@@ -5,17 +5,18 @@
     <% "#{I18n.t "description_page_start_artist"}#{@artist.name}#{I18n.t "description_page_end_artist"}"%> 
 <% end %>
 <% content_for :breadcrumbs do %>
-    <%= link_to I18n.t("bc_home"), root_path%>
+    <%= link_to I18n.t("bc_home"), root_path%> >
     <%= link_to "#{I18n.t "bc_alphabet"}#{@artist.alphabet.name.capitalize}", alphabet_path(@artist.alphabet) if  @artist.alphabet%>
     <%= link_to  I18n.t("bc_alphabet_number"), alphabet_path(:id => nil) unless @artist.alphabet%>
-    <%= link_to @artist.name, artist_path(@artist) %>
+    > <%= link_to @artist.name, artist_path(@artist) %>
 <% end %>
 
 
 <div class="lyrics">
-    <%= content_tag :h1, "#{I18n.t("h1_artist")} #{@artist.name}" %>
-
-    <ul>
+    <div class="big_title">
+        <%= content_tag :h1, "#{I18n.t("h1_artist")} #{@artist.name}" %>
+    </div>
+    <ul class="song_artist_list">
         <% @songs.each{ |song|  %>
             <li>  
                 <%= link_to song.title, songs_path(song) %>
